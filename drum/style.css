@@ -1,0 +1,47 @@
+html {
+    background: url(photo-1571327073757-71d13c24de30.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: .3rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 20px;
+    transition: all .07s ease;
+    width: 3rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 12px;
+    color: #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 2.5rem;
+    text-shadow: 0 0 .5rem rgb(131, 131, 131);
+}
